@@ -11,6 +11,8 @@ git init
 
 #一些大文件上传设置缓存区为500mb
 git config http.postBuffer 524288000remote add origin $url
+#配置ssl安全问题
+git config  --global   http.sslVerify "false"
 
 #这里是安装处理大文件的工具
 git lfs install
