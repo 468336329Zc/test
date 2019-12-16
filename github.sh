@@ -17,6 +17,9 @@ git lfs install
 #跟踪之前需要跟踪的文件，这样上传的就少了
 git lfs track $houzhui 
 
+#lfs的一个配置 
+git config lfs.https://github.com/468336329Zc/face-recognition.git/info/lfs.locksverify false
+
 #后面就是正常的操作了
 #添加文件 
 git add $file
@@ -33,3 +36,4 @@ git config --global credential.helper store
 #推送到远程仓库
 git push -u origin master
 
+echo "请耐心等待"
