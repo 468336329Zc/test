@@ -29,7 +29,7 @@ git add $file
 #提交
 git commit -m "第一次提交，有点紧张"
 #绑定远程仓库  就是你之前在github上创建的仓库地址
-git remote add orgin $url
+git remote add origin $url
 
 
 #解决用户密码一直要输入  
